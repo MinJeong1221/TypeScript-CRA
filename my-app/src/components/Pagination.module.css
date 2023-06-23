@@ -1,0 +1,37 @@
+.pagenation{
+  margin-top: 16px;
+}
+.button{
+  box-sizing: border-box;
+  border: none;
+  box-shadow: none;
+  background: none;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.button:hover{
+  border: 1px solid #d0d7de;
+}
+
+.selected{
+  background: #0969da;
+  color: #fff;
+}
+
+/* .disabled{
+  color: #8c959f;
+  pointer-events: none;
+} */
+
+.buleButton{
+  color: #0969da;
+}
+.buleButton:disabled{
+  color: #d0d7de;
+}
+.buleButton:disabled:hover{
+  color: #d0d7de;
+  border: none;
+}
