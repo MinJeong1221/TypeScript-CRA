@@ -15,7 +15,11 @@
             "jsx": true
         },
         "ecmaVersion": 14,
-        "sourceType": "module"
+        "sourceType": "module",
+        "parser": {
+            "ts": "@typescript-eslint/parser",
+            "<template>": "espree"
+        }
     },
     "plugins": [
         "react",
